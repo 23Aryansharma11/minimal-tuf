@@ -1,1 +1,39 @@
-<section></section>
+---
+import { Image } from "astro:assets";
+import heroImage from "../../public/hero-image.png";
+---
+
+<section
+  class="w-full flex flex-col items-center justify-center text-center px-6 py-2"
+>
+  <h1
+    class="text-4xl md:text-5xl font-bold max-w-3xl leading-tight text-gray-900 font-space"
+  >
+    Get Interview-Ready. Fast.
+  </h1>
+  <p class="mt-2 text-lg text-[#64748B] max-w-2xl">
+    Striver’s DSA Sheets, curated roadmaps, and AI-powered support — everything
+    you need to crack top tech interviews, without wasting time.
+  </p>
+
+  <a
+    href="/"
+    class="mt-6 bg-black text-white font-medium px-6 py-3 rounded-xl transition-all duration-300 font-space"
+  >
+    Explore TUF</a
+  >
+  <div class="relative mt-12 flex justify-center">
+    <div
+      class="bg-white border border-[--color-border] rounded-xl shadow-lg max-w-3xl w-full overflow-hidden"
+    >
+      <div
+        class="bg-gray-100 px-4 py-2 border-b border-[#E2E8F0] text-left text-xs text-gray-500 font-mono tracking-wider"
+      >
+        takeuforward.org
+      </div>
+      <Image src={heroImage} alt="hero" class="w-full object-contain" />
+    </div>
+  </div>
+</section>
+
+<!-- <Image src={heroImage} alt="hero" class="" /> -->
