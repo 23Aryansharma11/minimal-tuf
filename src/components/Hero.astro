@@ -1,6 +1,7 @@
 ---
 import { Image } from "astro:assets";
 import heroImage from "../../public/hero-image.png";
+import LinkIcon from "../assets/icons/link.svg";
 ---
 
 <section
@@ -27,9 +28,10 @@ import heroImage from "../../public/hero-image.png";
       class="bg-white border border-[--color-border] rounded-xl shadow-lg max-w-3xl w-full overflow-hidden"
     >
       <div
-        class="bg-gray-100 px-4 py-2 border-b border-[#E2E8F0] text-left text-xs text-gray-500 font-mono tracking-wider"
+        class="bg-gray-100 px-4 py-2 border-b border-[#E2E8F0] text-left text-xs text-gray-500 font-space tracking-wider flex justify-start items-center gap-1"
       >
-        takeuforward.org
+        <Image src={LinkIcon} alt="link" class="w-3" />
+        <span> takeuforward.org </span>
       </div>
       <Image src={heroImage} alt="hero" class="w-full object-contain" />
     </div>

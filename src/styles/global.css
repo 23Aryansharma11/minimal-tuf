@@ -2,14 +2,14 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: "#2E8BFF";
-  --color-dark: "#1E293B";
-  --color-muted: "#64748B";
-  --color-success: "#16A34A";
-  --color-border: "#E2E8F0";
-  --color-alt: "#F8FAFC";
-  --color-highlight: "#E0F2FE";
-  --color-hover: "#1D4ED8";
+  --color-primary: #2E8BFF;
+  --color-dark: #1E293B;
+  --color-muted: #64748B;
+  --color-success: #16A34A;
+  --color-border: #E2E8F0;
+  --color-alt: #F8FAFC;
+  --color-highlight: #E0F2FE;
+  --color-hover: #1D4ED8;
 
   --font-space: "Space Grotesk", sans-serif;
 }
